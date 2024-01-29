@@ -1,0 +1,33 @@
+:root{
+    --primary-color: rgb(205, 92, 92);
+}
+
+.header__nav{
+    display: flex;
+}
+
+li{
+    list-style: none;
+  }
+
+  .header__logo{
+    background-color: var(--primary-color);
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+  }
+
+
+  .header__menu{
+    display: flex;
+    align-items: center;
+    flex: 3;
+    justify-content: space-evenly;
+  }
+
+  .header__menu-mobile{
+    display: none;
+  }

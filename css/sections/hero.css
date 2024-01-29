@@ -1,0 +1,128 @@
+:root{
+    --primary-color: rgb(205, 92, 92);
+    --secondary-color: white;
+}
+
+.hero{
+    display: flex;
+    height: calc(100vh  - 50px);
+    overflow: hidden;
+}
+
+.hero-image{
+    height: 100%;
+    width: 350px;
+    background-color: var(--primary-color);
+}
+
+.hero-image img{
+    width: 120%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+
+.hero-image h2{
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+}
+
+
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 50px 20px 10px 100px;
+    justify-content: space-between;
+    
+}
+
+.hero-content-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero-content-info h1{
+    font-size: 4rem;
+    font-family: var(--playfair-display);
+
+}
+
+.hero-content-info p{
+    font-family: var(--plus-jakarta-sans);
+}
+
+.hero-content__buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.hero-content__order-button{
+    border: none;
+    color: white;
+    background-color: rgb(49, 51, 59);
+}
+
+.hero-content__play-button{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    white-space: nowrap;
+}
+
+button{
+    padding: 8px 50px;
+    border-radius: 30px;
+    font-weight: 600;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.hero-content__play-button img{
+    width: 40px;
+}
+
+.hero-content__testimonial{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-white);
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.hero-content__customer{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 15px;
+}
+
+.hero-content__customer h4{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+
+
+.hero-content__review{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex:1;
+}
+
+.hero-content__review img{
+    width: 50px;
+}

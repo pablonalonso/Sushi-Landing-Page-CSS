@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    font-family: var(  --plus-jakarta-sans);
+}
+
+.footer span{
+    color: var(--primary-color);
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.footer ul{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    font-family: var(  --plus-jakarta-sans);
+}
+
+.icons div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black-400);
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}

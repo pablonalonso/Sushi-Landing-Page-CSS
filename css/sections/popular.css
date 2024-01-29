@@ -1,0 +1,185 @@
+.popular-foods{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--primary-color);
+    padding: 40px;
+}
+
+.popular-foods__title{
+    color: white;
+    font-family: var(--playfair-display);
+    font-size: 56px;
+}
+
+.popular-foods__filters {
+    display: flex;
+    gap: 20px;
+}
+
+.popular-foods__filters button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.137);
+    color: black;
+    display: flex;
+    gap: 5px;
+}
+
+.popular-foods__filters button:hover{
+    background-color: rgba(255, 255, 255, 0.534);
+    cursor: pointer;
+}
+
+.popular-foods__filters  .active{
+    background-color: rgba(255, 255, 255, 0.616);
+}
+
+.popular-foods__filters button img{
+    width: 30px;
+}
+
+.popular-foods button{
+    border: none;
+    display: flex;
+    gap: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: min-content;
+}
+
+.popular-foods__button{
+    padding: 10px 60px;
+    background-color: var(--black-400);
+    color: white;
+}
+
+.popular-foods__button img{
+    width: 20px;
+}
+
+.popular-foods__card-rating{
+    display: flex;
+
+    gap: 5px;
+}
+
+.popular-foods__card-details{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.popular-foods__catalogue{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.popular-foods__card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.288);
+    padding: 50px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.popular-foods__card-title{
+    color: white;
+    font-size: 1.2rem
+}
+
+.popular-foods__card img{
+    width: 50%;
+}
+
+.active-card{
+    height: 300px;
+    background-color: white;
+    
+}
+
+.active-card .popular-foods__card-image{
+    width: 200px;
+}
+
+.active-card  .popular-foods__card-title{
+    font-size: 2rem;
+    color: black;
+}
+
+.trending{
+    background-color: rgb(255, 186, 139);
+    display: flex;
+}
+.trending__content{
+    padding: 30px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.trending__image{
+    width: 300px;
+    background-color: white;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 50px 10px;
+}
+
+.trending__image img{
+    width: 200px;
+    object-fit: contain;
+}
+.trending__list{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.trending__list div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+li{
+    display: flex;
+    gap: 5px;
+}
+
+li div{
+    background-color: var(--primary-color);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+#trending-2{
+    flex-direction: row-reverse;
+}
+
+.trending-section{
+    position: relative;
+}
+
+.black-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+}
